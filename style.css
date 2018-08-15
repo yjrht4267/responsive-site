@@ -73,10 +73,13 @@ body
     flex-direction: column;
   }
 }
-
+@media (max-width: 768px) {
   .antarctic {
       height:250px;
   }
+}
+  @media (max-width: 768px) {
   .temperature, .area, .population {
       width:100%;
   }
+}
